@@ -24,7 +24,6 @@ class Archive {
   void DeleteFile(const std::string& file_name);
   void Concatenate(const std::string& name_arch1, const std::string& name_arch2);
 
-
  private:
   std::string name_;
   std::vector<std::string> files_;
